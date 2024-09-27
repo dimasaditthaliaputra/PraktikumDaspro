@@ -44,7 +44,7 @@ public class Kafe06 {
                 break;
             default:
                 System.out.println("Size yang dipilih tidak tersedia");
-                break;
+                return;
         }
 
         double diskon = keanggotaan ? 0.1 : 0;
